@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact-form</title>
+  <!-- custom css  -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>Have any questions? Drop a message</p>
+
+    <form name="contact-form" method="POST" data-netlify="true">
+      <div class="row">
+        <div class="col">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your Full Name" name="name" required />
+        </div>
+        <div class="col">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter Email Address" name="email" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Enter Subject" name="subject" required />
+        </div>
+        <div class="col">
+          <label for="mobile">Contact Number</label>
+          <input type="tel" id="mobile" placeholder="Enter Mobile Number" name="mobile_number" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="message">Your Message</label>
+          <textarea id="message" placeholder="Enter your issue/message" rows="3" name="message" required></textarea>
+        </div>
+      </div>
+      <input type="submit" value="Submit" class="submit-btn" />
+    </form>
+  </main>
+</body>
+
+</html>
