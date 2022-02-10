@@ -73,7 +73,7 @@ textarea {
 }
 
 input:hover,
-textarea:focus {
+textarea:hover {
   outline: none;
   border-color: #222968;
 }
